@@ -52,18 +52,6 @@ It demonstrates how to work with real datasets, generate insights, and apply sup
 
 ---
 
-## ▶️ How to Run
-
-### Run the Notebook
-```bash
-jupyter notebook notebooks/DMML_final_projects.ipynb
-```
-
-### Run the Script (if exported)
-```bash
-python src/ml_projects.py
-```
-
 ---
 
 ## 📸 Example Usage
@@ -97,17 +85,4 @@ pred = model.predict(X_test)
 print("Accuracy:", accuracy_score(y_test, pred))
 ```
 
----
 
-## 🎯 Learning Outcomes
-
-- Ability to explore and clean datasets for analysis  
-- Hands-on experience with **visualization techniques**  
-- Applied **machine learning algorithms** for classification tasks  
-- Learned to evaluate model performance with proper metrics  
-
----
-
-## 📜 License
-
-This project is licensed under the [MIT License](LICENSE).
